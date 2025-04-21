@@ -1,0 +1,16 @@
+{
+  "subgraphs": {
+    "accounts": {
+      "routing_url": "http://localhost:4001/graphql",
+      "schema": {
+        "file": "./packages/subgraphs/accounts/introspected.graphql"
+      }
+    },
+    "products": {
+      "routing_url": "http://localhost:4002/graphql",
+      "schema": {
+        "file": "./packages/subgraphs/products/introspected.graphql"
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "accounts" : "http://localhost:4001/graphql",
+  "products": "http://localhost:4002/graphql"
+}
